@@ -1,4 +1,4 @@
-# FOSSA Analysis Zuul Job Example
+# FOSSA Analysis Job Example
 
 This project includes a Zuul pipeline configuration for running FOSSA license compliance and vulnerability analysis.
 
@@ -13,8 +13,10 @@ The Zuul job is defined in the `.zuul.yaml` file, which includes the job definit
 ## Running the Job
 
 The job is automatically triggered by Zuul when changes are pushed to the repository. It can also be manually
-# FOSSA Analysis Zuul Job Example
+
 ```
+# Fossa analysis
+ 
 - job:
     name: fossa-analyze
     description: Analyze the project with FOSSA for license compliance
