@@ -14,7 +14,7 @@ The Zuul job is defined in the `.zuul.yaml` file, which includes the job definit
 
 The job is automatically triggered by Zuul when changes are pushed to the repository. It can also be manually
 
-```YAML
+```YAML 	
 # Fossa analysis
  
 - job:
